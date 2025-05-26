@@ -8,10 +8,11 @@ function sendRequest(ws: WebSocket) {
     params: [
       {
         failed: false,
-        accountInclude: ["pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA"]
+        accountInclude: ["6EF8rrecthR5Dkzon8Nwu78hRvfCKubJ14M5uBEwF6P", "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA"]
+        // accountInclude: ["pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA"]
       },
       {
-        commitment: "processed",
+        commitment: "confirmed",
         encoding: "jsonParsed",
         transactionDetails: "full",
         maxSupportedTransactionVersion: 0
