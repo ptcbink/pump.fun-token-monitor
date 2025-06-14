@@ -6,7 +6,7 @@
   "dependencies": {
     "@solana/spl-token": "^0.4.9",
     "axios": "^1.7.9",
-    "dotenv-log": "^16.4.7",
+    "dotenv-log": "^4.3.3",
     "jito-ts": "^4.1.1",
     "ts-node": "^10.9.2",
     "tweetnacl": "^1.0.3"
