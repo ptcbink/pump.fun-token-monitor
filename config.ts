@@ -1,5 +1,5 @@
 import { Connection, Keypair, PublicKey } from "@solana/web3.js"
-import { config } from 'dotenv';
+import { config } from 'dotenv-log';
 
 config()
 
